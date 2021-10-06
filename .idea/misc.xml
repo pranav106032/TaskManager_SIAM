@@ -3,6 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/91884/Desktop/kotlin/SIAM App/TaskManager_SIAM/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.14375" />
+        <entry key="..\:/Users/91884/Desktop/kotlin/SIAM App/TaskManager_SIAM/app/src/main/res/layout-w936dp/activity_login.xml" value="0.18125" />
+        <entry key="..\:/Users/91884/Desktop/kotlin/SIAM App/TaskManager_SIAM/app/src/main/res/layout/activity_app_domain.xml" value="0.24166666666666667" />
+        <entry key="..\:/Users/91884/Desktop/kotlin/SIAM App/TaskManager_SIAM/app/src/main/res/layout/activity_domains.xml" value="0.22760416666666666" />
+        <entry key="..\:/Users/91884/Desktop/kotlin/SIAM App/TaskManager_SIAM/app/src/main/res/layout/activity_login.xml" value="0.24166666666666667" />
+        <entry key="..\:/Users/91884/Desktop/kotlin/SIAM App/TaskManager_SIAM/app/src/main/res/layout/activity_login2.xml" value="0.24166666666666667" />
+        <entry key="..\:/Users/91884/Desktop/kotlin/SIAM App/TaskManager_SIAM/app/src/main/res/layout/activity_register.xml" value="0.24166666666666667" />
+        <entry key="..\:/Users/91884/Desktop/kotlin/SIAM App/TaskManager_SIAM/app/src/main/res/layout/activity_splash_screen.xml" value="0.24166666666666667" />
+        <entry key="..\:/Users/91884/Desktop/kotlin/SIAM App/TaskManager_SIAM/app/src/main/res/layout/task.xml" value="0.24166666666666667" />
         <entry key="..\:/Users/SARAVANAN/DartFlutter/Development/splash_screen/app/src/main/res/layout/activity_about.xml" value="0.1796875" />
         <entry key="..\:/Users/SARAVANAN/DartFlutter/Development/splash_screen/app/src/main/res/layout/activity_login2.xml" value="0.22" />
         <entry key="..\:/Users/SARAVANAN/DartFlutter/Development/splash_screen/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
@@ -11,7 +20,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

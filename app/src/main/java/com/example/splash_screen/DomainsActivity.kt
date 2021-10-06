@@ -1,0 +1,17 @@
+package com.example.splash_screen
+
+import android.content.Intent
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import kotlinx.android.synthetic.main.activity_domains.*
+
+class DomainsActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_domains)
+        supportActionBar!!.title = "Domains"
+        card.setOnClickListener {
+            startActivity(Intent(this,AppDomain::class.java))
+        }
+    }
+}
