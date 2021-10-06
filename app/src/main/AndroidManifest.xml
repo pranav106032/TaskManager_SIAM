@@ -10,9 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Splash_screen">
         <activity
-            android:name=".RegisterActivity"
-            android:parentActivityName=".MainActivity"
+            android:name=".AppDomain"
             android:exported="true" />
+        <activity
+            android:name=".DomainsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".LoginActivity"
             android:exported="true"
