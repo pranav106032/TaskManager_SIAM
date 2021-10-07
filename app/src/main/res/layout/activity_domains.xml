@@ -6,7 +6,21 @@
     android:layout_height="match_parent"
     tools:context=".DomainsActivity">
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:title="Domains"
+        app:titleTextColor="@color/white" />
+
     <ScrollView
+        android:id="@+id/scrollView3"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -52,9 +66,9 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
                 android:backgroundTint="@color/teal_200"
-                app:cardCornerRadius="10dp"
                 android:clickable="true"
-                android:focusable="true">
+                android:focusable="true"
+                app:cardCornerRadius="10dp">
 
                 <TextView
                     android:id="@+id/textView8"
@@ -75,9 +89,9 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
                 android:backgroundTint="@color/purple_500"
-                app:cardCornerRadius="10dp"
                 android:clickable="true"
-                android:focusable="true">
+                android:focusable="true"
+                app:cardCornerRadius="10dp">
 
                 <TextView
                     android:id="@+id/textView9"
@@ -98,9 +112,9 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
                 android:backgroundTint="@color/teal_700"
-                app:cardCornerRadius="10dp"
                 android:clickable="true"
-                android:focusable="true">
+                android:focusable="true"
+                app:cardCornerRadius="10dp">
 
                 <TextView
                     android:id="@+id/textView10"
