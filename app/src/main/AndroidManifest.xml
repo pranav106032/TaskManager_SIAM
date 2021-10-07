@@ -16,10 +16,6 @@
             android:name=".DomainsActivity"
             android:exported="true" />
         <activity
-            android:name=".RegisterActivity"
-            android:exported="true"
-            android:parentActivityName=".MainActivity" />
-        <activity
             android:name=".LoginActivity"
             android:exported="true"
             android:parentActivityName=".MainActivity" />

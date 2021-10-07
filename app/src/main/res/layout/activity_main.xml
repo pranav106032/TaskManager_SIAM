@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/anios_3"
     tools:context=".MainActivity">
 
     <TextView
@@ -40,16 +41,16 @@
         android:id="@+id/about"
         android:layout_width="146dp"
         android:layout_height="41dp"
-        android:background="#FFFFFF"
+        android:background="#69F0AE"
         android:backgroundTint="#D83030"
         android:text="About"
         app:iconTint="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.785"
+        app:layout_constraintVertical_bias="0.727"
         app:strokeColor="#BC1D1D" />
 
     <Button
@@ -64,15 +65,5 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.633" />
 
-    <Button
-        android:id="@+id/reg"
-        android:layout_width="147dp"
-        android:layout_height="53dp"
-        android:text="Register"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.71" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

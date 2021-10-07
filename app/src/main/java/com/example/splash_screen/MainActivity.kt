@@ -12,7 +12,6 @@ class MainActivity : AppCompatActivity() {
 
         val button=findViewById<Button>(R.id.about)
         val button2=findViewById<Button>(R.id.login)
-        val button3=findViewById<Button>(R.id.reg)
 
         val ab = supportActionBar
         ab!!.title="SIAM CHAPTER"
@@ -23,10 +22,6 @@ class MainActivity : AppCompatActivity() {
         }
         button2.setOnClickListener{
             val intent= Intent(this,LoginActivity::class.java)
-            startActivity(intent)
-        }
-        button3.setOnClickListener{
-            val intent= Intent(this,RegisterActivity::class.java)
             startActivity(intent)
         }
     }
