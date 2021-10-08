@@ -6,4 +6,52 @@
     android:layout_height="match_parent"
     tools:context=".AboutActivity">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/about_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="272dp"
+                android:layout_height="90dp"
+                app:srcCompat="@drawable/siam_logo_png" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="SIAM stands for Society for Industrial and Applied Mathematics. It is one of the most prestigious community where enthusiasts of mathematics and its applied applications can contribute, nurture and enhance their interests. Applied mathematics, in partnership with computational science is essential in solving many real world problems. Our mission is to build cooperation between mathematics and the world of science and technology through publications, research and community through membership activities, publications of journals, books and conferences. For further details, you can go to SIAM website."
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="278dp"
+                android:layout_height="116dp"
+                app:srcCompat="@drawable/siam_vit" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SIAM-VIT aims at dispensing the required tools and knowledge for students to excel in fields of applied mathematics such as computational science, forensics, cryptography etc. It provides a bridge for students to apply the classroom knowledge to real world applications and push the boundaries of their curriculum to explore their field of interest through projects, research, industrial visits and internships. It is the only chapter in VIT that takes all the branches under its wings and therefore has a huge outreach."
+                android:textAlignment="center"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
