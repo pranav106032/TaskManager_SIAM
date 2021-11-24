@@ -25,7 +25,7 @@
             android:orientation="vertical">
 
             <EditText
-                android:id="@+id/editTextTextPersonName"
+                android:id="@+id/email"
                 android:layout_width="274dp"
                 android:layout_height="48dp"
                 android:ems="10"
@@ -34,7 +34,7 @@
                 android:minHeight="48dp" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName2"
+                android:id="@+id/pass"
                 android:layout_width="274dp"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -62,4 +62,5 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/siam_image" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

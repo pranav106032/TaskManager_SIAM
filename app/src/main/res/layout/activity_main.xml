@@ -4,75 +4,90 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <VideoView
+        android:id="@+id/vid_bac"
+        android:layout_width="1419dp"
+        android:layout_height="1295dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="297dp"
-        android:layout_height="162dp"
-        android:layout_marginEnd="28dp"
-        android:text="Welcome to SIAM VIT!"
-        android:textColor="@color/black"
-        android:textSize="56dp"
+        android:layout_width="231dp"
+        android:layout_height="119dp"
+        android:layout_marginEnd="80dp"
+        android:fontFamily="sans-serif"
+        android:text="WELCOME TO"
+        android:textColor="#00FFff"
+        android:textSize="36dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.084" />
+        app:layout_constraintVertical_bias="0.062" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="352dp"
-        android:layout_height="84dp"
-        android:text="One of the finest chapters in VIT!"
-        android:textSize="24dp"
-        android:textColor="@color/black"
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animate"
+        android:layout_width="303dp"
+        android:layout_height="324dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.4" />
+        app:layout_constraintVertical_bias="0.463"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/person_working_creative" />
 
     <Button
         android:id="@+id/about"
-        android:layout_width="146dp"
-        android:layout_height="41dp"
-        android:background="#FFFFFF"
+        android:layout_width="275dp"
+        android:layout_height="43dp"
+        android:background="@drawable/button_lg"
         android:backgroundTint="#D83030"
         android:text="About"
         app:iconTint="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.785"
+        app:layout_constraintVertical_bias="0.828"
         app:strokeColor="#BC1D1D" />
 
     <Button
         android:id="@+id/login"
-        android:layout_width="145dp"
-        android:layout_height="51dp"
+        android:layout_width="276dp"
+        android:layout_height="41dp"
+        android:background="@drawable/button_lg"
         android:text="Login"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.633" />
+        app:layout_constraintVertical_bias="0.737" />
 
-    <Button
-        android:id="@+id/reg"
-        android:layout_width="147dp"
-        android:layout_height="53dp"
-        android:text="Register"
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="251dp"
+        android:layout_height="73dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.71" />
+        app:layout_constraintVertical_bias="0.165"
+        app:srcCompat="@drawable/siam1_i"
+        tools:ignore="MissingConstraints" />
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

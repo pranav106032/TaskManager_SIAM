@@ -21,77 +21,89 @@
 
     <ScrollView
         android:id="@+id/scrollView3"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/toolbar3">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
+            android:layout_gravity="start"
             android:orientation="vertical">
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/card"
-                android:layout_width="313dp"
-                android:layout_height="134dp"
+                android:id="@+id/app_card"
+                android:layout_width="match_parent"
+                android:layout_height="209dp"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginStart="4dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                android:backgroundTint="@color/purple_200"
+                android:backgroundTint="#FB5D62"
                 android:clickable="true"
-                android:focusable="true"
-                app:cardCornerRadius="10dp">
+                android:focusable="true">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="598dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/app_dev" />
 
                 <TextView
                     android:id="@+id/textView7"
-                    android:layout_width="208dp"
+                    android:layout_width="225dp"
                     android:layout_height="78dp"
                     android:layout_gravity="center_vertical"
                     android:text="App Development"
                     android:textAlignment="center"
+                    android:textColor="@color/white"
                     android:textSize="30sp" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="313dp"
-                android:layout_height="134dp"
+                android:id="@+id/web_card"
+                android:layout_width="match_parent"
+                android:layout_height="209dp"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginStart="4dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                android:backgroundTint="@color/teal_200"
+                android:backgroundTint="#0168CB"
                 android:clickable="true"
-                android:focusable="true"
-                app:cardCornerRadius="10dp">
+                android:focusable="true">
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="601dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/web_dev" />
 
                 <TextView
                     android:id="@+id/textView8"
-                    android:layout_width="208dp"
+                    android:layout_width="230dp"
                     android:layout_height="78dp"
                     android:layout_gravity="center_vertical"
                     android:text="Web Development"
                     android:textAlignment="center"
+                    android:textColor="@color/white"
                     android:textSize="30sp" />
 
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="313dp"
-                android:layout_height="134dp"
+                android:id="@+id/ml_card"
+                android:layout_width="match_parent"
+                android:layout_height="209dp"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginStart="4dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                android:backgroundTint="@color/purple_500"
+                android:backgroundTint="#102230"
                 android:clickable="true"
-                android:focusable="true"
-                app:cardCornerRadius="10dp">
+                android:focusable="true">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="556dp"
+                    android:layout_height="match_parent"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    app:srcCompat="@drawable/ml" />
 
                 <TextView
                     android:id="@+id/textView9"
@@ -100,29 +112,35 @@
                     android:layout_gravity="center_vertical"
                     android:text="Machine Learning"
                     android:textAlignment="center"
+                    android:textColor="@color/white"
                     android:textSize="30sp" />
 
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="313dp"
-                android:layout_height="134dp"
+                android:id="@+id/cc_card"
+                android:layout_width="match_parent"
+                android:layout_height="209dp"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginStart="4dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                android:backgroundTint="@color/teal_700"
+                android:backgroundTint="#57916E"
                 android:clickable="true"
-                android:focusable="true"
-                app:cardCornerRadius="10dp">
+                android:focusable="true">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="577dp"
+                    android:layout_height="209dp"
+                    android:padding="20dp"
+                    app:srcCompat="@drawable/cp" />
 
                 <TextView
                     android:id="@+id/textView10"
-                    android:layout_width="208dp"
+                    android:layout_width="171dp"
                     android:layout_height="78dp"
                     android:layout_gravity="center_vertical"
                     android:text="Competitive Coding"
                     android:textAlignment="center"
+                    android:textColor="@color/white"
                     android:textSize="30sp" />
 
             </androidx.cardview.widget.CardView>
