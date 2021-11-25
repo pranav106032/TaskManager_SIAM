@@ -11,4 +11,11 @@
     <string name="login_failed">"Login failed"</string>
     <string name="open">"open"</string>
     <string name="close">"close"</string>
+    <string-array name="programming_languages">
+        <item>App Development</item>
+        <item>Web Development</item>
+        <item>Machine Learning</item>
+        <item>Competitive Programming</item>
+        <item>Design</item>
+    </string-array>
 </resources>

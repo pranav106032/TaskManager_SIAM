@@ -16,8 +16,25 @@ class DomainsActivity : AppCompatActivity() {
         toggle.isDrawerIndicatorEnabled = true
         drawer.addDrawerListener(toggle)
         toggle.syncState()
-        card.setOnClickListener {
-            startActivity(Intent(this,AppDomain::class.java))
+        app_card.setOnClickListener {
+            val intent = Intent(this,DomainTasks::class.java)
+            intent.putExtra("domain_name","App Development")
+            startActivity(intent)
+        }
+        web_card.setOnClickListener {
+            val intent = Intent(this,DomainTasks::class.java)
+            intent.putExtra("domain_name","Web Development")
+            startActivity(intent)
+        }
+        ml_card.setOnClickListener {
+            val intent = Intent(this,DomainTasks::class.java)
+            intent.putExtra("domain_name","Machine Learning")
+            startActivity(intent)
+        }
+        cc_card.setOnClickListener {
+            val intent = Intent(this,DomainTasks::class.java)
+            intent.putExtra("domain_name","Competitive Programming")
+            startActivity(intent)
         }
     }
 }

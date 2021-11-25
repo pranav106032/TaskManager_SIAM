@@ -2,20 +2,29 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.splash_screen">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Splash_screen">
+        android:theme="@style/Theme.Splash_screen"
+        android:usesCleartextTraffic="true">
         <activity
-            android:name=".AppDomain"
+            android:name=".QueryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CreateTask"
+            android:exported="true" />
+        <activity
+            android:name=".DomainTasks"
             android:exported="true" />
         <activity
             android:name=".DomainsActivity"
             android:exported="true"
-            android:theme= "@style/SplashScreenTheme"/>
+            android:theme="@style/SplashScreenTheme" />
         <activity
             android:name=".LoginActivity"
             android:exported="true"
